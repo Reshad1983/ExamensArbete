@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView android:id="@+id/display" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="Push button to start new activity"
+		android:gravity="center" 
+		android:textColor="#ffffff80"
+		android:background="#ff000099" 
+		android:textSize="20sp" 
+		android:height="100sp" />
+		
+	<Button android:id="@+id/button" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="New Activity"
+		android:layout_gravity="center" />
+		
+	<TextView android:id="@+id/name_display" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:text="John Doe"
+		android:gravity="center" 
+		android:textColor="#ffffff80"
+		android:background="#ff000099" 
+		android:textSize="20sp" 
+		android:height="100sp" />
+		
+	<Button android:id="@+id/name_button" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Read Name"
+		android:layout_gravity="center" />
+</LinearLayout>

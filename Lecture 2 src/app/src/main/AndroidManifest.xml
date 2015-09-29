@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dv606.lecture2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:logo="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="SimpleList" android:label="Simple List" android:parentActivityName=".MainList"/>
+        <activity android:name="StaticList" android:label="Static List" android:parentActivityName=".MainList"/>
+        <activity android:name="DynamicList" android:label="Dynamic List" android:parentActivityName=".MainList"/>
+        <activity android:name="ActionBars" android:label="Menus and ActionBars"/>
+        <activity android:name="UsingIntents" android:label="Using Intents" android:parentActivityName=".MainList"/>
+        <activity android:name="Hello" android:label="Hello Activity" android:parentActivityName="UsingIntents"/>
+        <activity android:name="ReadName" android:label="ReadName Activity"/>
+    </application>
+
+</manifest>
